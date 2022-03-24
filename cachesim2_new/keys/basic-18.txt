@@ -1,0 +1,41 @@
+** Running basic-18.txt **
+fetched RAM[0..7]
+got 25 from cache[1]
+RAM[0..7] = [ 00 25 FF 6F 94 B9 DE 28 ]
+got 6f from cache[3]
+got b9 from cache[5]
+RAM[0..7] = [ 00 25 FF 6F 94 FF DE 28 ]
+got 28 from cache[7]
+fetched RAM[a0..a7]
+RAM[a0..a7] = [ 73 EE BD E2 07 2C 51 9B ]
+fetched RAM[b0..b7]
+got 57 from cache[b2]
+fetched RAM[c0..c7]
+RAM[c0..c7] = [ A7 CC 16 EE 60 85 AA CF ]
+fetched RAM[d0..d7]
+RAM[d0..d7] = [ 66 8B B0 D5 FA EE 44 8E ]
+fetched RAM[e0..e7]
+got de from cache[e5]
+fetched RAM[f0..f7]
+RAM[f0..f7] = [ 9A BF E4 2E 53 78 9D EE ]
+fetched RAM[fffffff8..ffffffff]
+got 7b from cache[fffffff8]
+RAM[fffffff8..ffffffff] = [ 7B AA EA 0F 34 59 7E A3 ]
+got ea from cache[fffffffa]
+RAM[fffffff8..ffffffff] = [ 7B AA EA BB 34 59 7E A3 ]
+got 34 from cache[fffffffc]
+fetched RAM[ffffff8..fffffff]
+RAM[ffffff8..fffffff] = [ 83 A8 F2 17 3C DD 86 AB ]
+fetched RAM[fffff8..ffffff]
+got 49 from cache[fffffe]
+fetched RAM[ffff8..fffff]
+RAM[ffff8..fffff] = [ 67 8C D6 FB 20 45 6A FF ]
+
+========== L1 cache ==========
+┌─ set  0 ─ PLRU    1 ─┬──┈
+│ 1 0                f │ 9a bf e4 2e 53 78 9d ee
+│ 1 0                e │ 00 25 4a 6f 94 de 03 28
+┌─ set  1 ─ PLRU    0 ─┬──┈
+│ 1 0            fffff │ 46 6b b5 da ff 24 49 6e
+│ 1 0             ffff │ 67 8c d6 fb 20 45 6a ff
+========== L1 cache ==========

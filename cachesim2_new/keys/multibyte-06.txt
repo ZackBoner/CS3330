@@ -1,0 +1,39 @@
+** Running multibyte-06.txt **
+fetched RAM[0..7]
+got [ 00 25 4a 6f 94 b9 de 28 ] from cache[0]
+fetched RAM[12340..12347]
+got [ a8 cd f2 17 3c 61 ab d0 ] from cache[12340]
+fetched RAM[320..327]
+got [ 3f ff ee dd cc bb 42 67 ] from cache[320]
+fetched RAM[20..27]
+got [ 34 59 7e c8 ed 12 37 5c ] from cache[20]
+fetched RAM[40..47]
+got [ 8d b2 d7 fc 21 46 90 b5 ] from cache[40]
+fetched RAM[60..67]
+got [ c1 0b 30 55 7a 9f c4 e9 ] from cache[60]
+RAM[80..87] = [ 3F FF EE EE DD CC BB 67 ]
+fetched RAM[80..87]
+got [ 1a 3f 64 89 d3 f8 1d 42 ] from cache[80]
+
+========== L1 cache ==========
+┌─ set  0 ─ PLRU    5 ─┬──┈
+│ 1 0                2 │ 8d b2 d7 fc 21 46 90 b5
+│ 1 0                4 │ 1a 3f 64 89 d3 f8 1d 42
+│ 1 0                3 │ c1 0b 30 55 7a 9f c4 e9
+│ 1 0                1 │ 34 59 7e c8 ed 12 37 5c
+┌─ set  1 ─ PLRU    0 ─┬──┈
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+┌─ set  2 ─ PLRU    0 ─┬──┈
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+┌─ set  3 ─ PLRU    0 ─┬──┈
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+========== L1 cache ==========

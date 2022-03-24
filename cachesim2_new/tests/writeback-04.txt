@@ -1,0 +1,25 @@
+cb 3 1 1 32
+
+
+r1 1
+w1 2 ff
+r1 3
+r1 5
+w1 5 ff
+r1 7
+
+w1 a1 ee
+r1 b2
+w1 c3 ee
+w1 d5 ee
+r1 e5
+w1 f7 ee
+
+r1 fffffffffff8
+w1 ffffffffff9 aa
+r1 fffffffffa
+w1 ffffffffb bb
+r1 fffffffc
+w1 ffffffd dd
+r1 fffffe
+w1 fffff ff

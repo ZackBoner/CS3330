@@ -1,0 +1,10 @@
+// direct-mapped bigger blocks L2
+cb 4 0 5 48
+// direct-mapped smaller blocks L1
+cb 3 0 3 48
+
+r1 0
+w1 4 ff
+r1 8
+w1 12 ff
+r1 16

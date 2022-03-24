@@ -1,0 +1,25 @@
+// set-associative L2
+ct 4 2 3 48
+// fully associative L1
+ct 4 3 0 48
+
+r1 73c6
+r1 61ba
+r1 4b4
+r1 5561
+r1 79b8
+r1 3653
+r1 185c
+r1 53d0
+r1 1438
+r1 bf8
+r1 fe
+r1 39cc
+r1 a61
+r1 75d7
+r1 2b73
+r1 4c49
+r1 569
+r1 335d
+r1 5018
+r1 dac

@@ -1,0 +1,5 @@
+// cache-write-back 2^4-byte blocks 2^2-way sets 2^3-set cache 48-bit addresses
+cb 4 2 3 48
+
+// access address 0x10
+w1 10 ff

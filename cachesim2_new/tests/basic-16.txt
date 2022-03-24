@@ -1,0 +1,13 @@
+ct 3 2 2 48
+
+w1 1 ff
+w1 2 ff
+w1 4 ff
+w1 8 ff
+w1 10 ff
+w1 20 ff
+w1 40 ff
+w1 90 ff
+w1 100 ff
+w1 110 ff
+w1 111 ff
