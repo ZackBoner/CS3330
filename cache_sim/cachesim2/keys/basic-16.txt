@@ -1,0 +1,43 @@
+** Running basic-16.txt **
+fetched RAM[0..7]
+RAM[0..7] = [ 00 FF 4A 6F 94 B9 DE 28 ]
+RAM[0..7] = [ 00 FF FF 6F 94 B9 DE 28 ]
+RAM[0..7] = [ 00 FF FF 6F FF B9 DE 28 ]
+fetched RAM[8..f]
+RAM[8..f] = [ FF 72 97 BC E1 06 50 75 ]
+fetched RAM[10..17]
+RAM[10..17] = [ FF BF E4 09 2E 78 9D C2 ]
+fetched RAM[20..27]
+RAM[20..27] = [ FF 59 7E C8 ED 12 37 5C ]
+fetched RAM[40..47]
+RAM[40..47] = [ FF B2 D7 FC 21 46 90 B5 ]
+fetched RAM[90..97]
+RAM[90..97] = [ FF D9 23 48 6D 92 B7 DC ]
+fetched RAM[100..107]
+RAM[100..107] = [ FF 7E A3 C8 ED 12 37 81 ]
+fetched RAM[110..117]
+RAM[110..117] = [ FF 18 3D 62 87 D1 F6 1B ]
+RAM[110..117] = [ FF FF 3D 62 87 D1 F6 1B ]
+
+========== L1 cache ==========
+┌─ set  0 ─ PLRU    0 ─┬──┈
+│ 1 0                0 │ 00 ff ff 6f ff b9 de 28
+│ 1 0                2 │ ff b2 d7 fc 21 46 90 b5
+│ 1 0                1 │ ff 59 7e c8 ed 12 37 5c
+│ 1 0                8 │ ff 7e a3 c8 ed 12 37 81
+┌─ set  1 ─ PLRU    3 ─┬──┈
+│ 1 0                0 │ ff 72 97 bc e1 06 50 75
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+┌─ set  2 ─ PLRU    5 ─┬──┈
+│ 1 0                0 │ ff bf e4 09 2e 78 9d c2
+│ 1 0                8 │ ff ff 3d 62 87 d1 f6 1b
+│ 1 0                4 │ ff d9 23 48 6d 92 b7 dc
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+┌─ set  3 ─ PLRU    0 ─┬──┈
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00
+========== L1 cache ==========

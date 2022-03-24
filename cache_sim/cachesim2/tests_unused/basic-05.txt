@@ -1,0 +1,18 @@
+// cache-write-through 2^4-byte blocks 2^2-way sets 2^3-set cache 48-bit addresses
+ct 4 2 3 48
+
+// access several addresses, with an eviction
+r1 400
+r1 200
+r1 100
+r1 80
+r1 40
+r1 20
+r1 10
+r1 08
+r1 04
+r1 02
+r1 01
+r1 00
+r1 400
+r1 100

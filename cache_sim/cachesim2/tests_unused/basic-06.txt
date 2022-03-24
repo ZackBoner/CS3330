@@ -1,0 +1,24 @@
+// direct-mapped: cache-write-through 2^4-byte blocks 2^0-way sets 2^4-set cache 48-bit addresses
+ct 4 0 4 48
+
+// access several addresses, with an eviction
+r1 0
+r1 1
+r1 2
+r1 4
+r1 8
+r1 10
+r1 20
+r1 40
+r1 80
+r1 100
+r1 200
+r1 300
+r1 380
+r1 3c0
+r1 3e0
+r1 3f0
+r1 3f8
+r1 3fc
+r1 3fe
+r1 3ff

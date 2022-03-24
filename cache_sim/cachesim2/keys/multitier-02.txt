@@ -1,0 +1,96 @@
+** Running multitier-02.txt **
+fetched RAM[73c0..73cf]
+got 64 from cache[73c6]
+fetched RAM[61b0..61bf]
+got ad from cache[61ba]
+fetched RAM[4b0..4bf]
+got 2a from cache[4b4]
+fetched RAM[5560..556f]
+got 9e from cache[5561]
+fetched RAM[79b0..79bf]
+got 4f from cache[79b8]
+fetched RAM[3650..365f]
+got 84 from cache[3653]
+fetched RAM[1850..185f]
+got 19 from cache[185c]
+fetched RAM[53d0..53df]
+got 22 from cache[53d0]
+fetched RAM[1430..143f]
+got a3 from cache[1438]
+fetched RAM[bf0..bff]
+got df from cache[bf8]
+fetched RAM[f0..ff]
+got ea from cache[fe]
+fetched RAM[39c0..39cf]
+got cb from cache[39cc]
+fetched RAM[a60..a6f]
+got aa from cache[a61]
+fetched RAM[75d0..75df]
+got fa from cache[75d7]
+fetched RAM[2b70..2b7f]
+got e5 from cache[2b73]
+fetched RAM[4c40..4c4f]
+got 27 from cache[4c49]
+fetched RAM[560..56f]
+got 15 from cache[569]
+fetched RAM[3350..335f]
+got 35 from cache[335d]
+fetched RAM[5010..501f]
+got 98 from cache[5018]
+fetched RAM[da0..daf]
+got 23 from cache[dac]
+
+========== L1 cache ==========
+┌─ set  0 ─ PLRU   78 ─┬──┈
+│ 1 0               56 │ 7e c8 ed 12 37 5c 81 a6 f0 15 3a 5f 84 a9 ce 18
+│ 1 0               a6 │ 60 aa cf f4 19 3e 63 88 d2 f7 1c 41 66 8b b0 fa
+│ 1 0              501 │ 4b 70 95 ba df 29 4e 73 98 bd e2 07 51 76 9b c0
+│ 1 0              2b7 │ 76 9b c0 e5 0a 2f 79 9e c3 e8 0d 32 57 a1 c6 eb
+│ 1 0              335 │ 0a 2f 54 79 c3 e8 0d 32 57 7c c6 eb 10 35 5a 7f
+│ 1 0              75d │ d2 f7 1c 41 66 8b b0 fa 1f 44 69 8e b3 d8 22 47
+│ 1 0               da │ 42 67 8c b1 d6 fb 20 6a 8f b4 d9 fe 23 6d 92 b7
+│ 1 0              4c4 │ b5 da ff 24 49 6e b8 dd 02 27 4c 71 96 e0 05 2a
+========== L1 cache ==========
+
+========== L2 cache ==========
+┌─ set  0 ─ PLRU    0 ─┬──┈
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+┌─ set  1 ─ PLRU    3 ─┬──┈
+│ 1 0               a0 │ 4b 70 95 ba df 29 4e 73 98 bd e2 07 51 76 9b c0
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+┌─ set  2 ─ PLRU    3 ─┬──┈
+│ 1 0               1b │ 42 67 8c b1 d6 fb 20 6a 8f b4 d9 fe 23 6d 92 b7
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+┌─ set  3 ─ PLRU    0 ─┬──┈
+│ 1 0               c3 │ 16 3b 60 85 cf f4 19 3e 63 88 ad f7 1c 41 66 8b
+│ 1 0               f3 │ 02 27 4c 71 bb e0 05 2a 4f 74 99 e3 08 2d 52 77
+│ 1 0                9 │ 71 96 bb e0 2a 4f 74 99 be e3 08 52 77 9c c1 e6
+│ 1 0               28 │ 31 7b a0 c5 ea 0f 34 59 a3 c8 ed 12 37 5c 81 cb
+┌─ set  4 ─ PLRU    5 ─┬──┈
+│ 1 0               e7 │ 61 86 d0 f5 1a 3f 64 89 ae f8 1d 42 67 8c b1 d6
+│ 1 0               98 │ b5 da ff 24 49 6e b8 dd 02 27 4c 71 96 e0 05 2a
+│ 1 0               73 │ c5 ea 34 59 7e a3 c8 ed 12 5c 81 a6 cb f0 15 3a
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+┌─ set  5 ─ PLRU    3 ─┬──┈
+│ 1 0               66 │ 0a 2f 54 79 c3 e8 0d 32 57 7c c6 eb 10 35 5a 7f
+│ 1 0               a7 │ 22 47 6c 91 b6 db 00 4a 6f 94 b9 de 03 28 72 97
+│ 1 0               30 │ 13 38 5d 82 cc f1 16 3b 60 85 cf f4 19 3e 63 88
+│ 1 0               eb │ d2 f7 1c 41 66 8b b0 fa 1f 44 69 8e b3 d8 22 47
+┌─ set  6 ─ PLRU    5 ─┬──┈
+│ 1 0               aa │ 54 9e c3 e8 0d 32 57 7c c6 eb 10 35 5a 7f a4 ee
+│ 1 0                a │ 7e c8 ed 12 37 5c 81 a6 f0 15 3a 5f 84 a9 ce 18
+│ 1 0               14 │ 60 aa cf f4 19 3e 63 88 d2 f7 1c 41 66 8b b0 fa
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+┌─ set  7 ─ PLRU    5 ─┬──┈
+│ 1 0               17 │ 92 b7 dc 26 4b 70 95 ba df 04 4e 73 98 bd e2 07
+│ 1 0               56 │ 76 9b c0 e5 0a 2f 79 9e c3 e8 0d 32 57 a1 c6 eb
+│ 1 0                1 │ 9a bf e4 2e 53 78 9d c2 e7 0c 56 7b a0 c5 ea 0f
+│ 0 0                0 │ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+========== L2 cache ==========

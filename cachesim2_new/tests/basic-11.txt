@@ -1,0 +1,5 @@
+// cache-write-through 2^4-byte blocks 2^2-way sets 2^3-set cache 48-bit addresses
+ct 4 2 3 48
+
+w1 10 ff
+w1 18 00

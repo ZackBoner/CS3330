@@ -1,0 +1,23 @@
+ct 4 2 5 48
+cb 3 1 2 48
+
+w1 73c6 ff
+w1 61ba ff
+w1 4b4 ff
+w1 5561 ff
+w1 79b8 ff
+w1 3653 ff
+w1 185c ff
+w1 53d0 ff
+w1 1438 ff
+w1 bf8 ff
+w1 fe ff
+w1 39cc ff
+w1 a61 ff
+w1 75d7 ff
+w1 2b73 ff
+w1 4c49 ff
+w1 569 ff
+w1 335d ff
+w1 5018 ff
+w1 dac ff
