@@ -1,0 +1,11 @@
+Size       Cycles/Element for sum_simple: simple ASM implementation
+1048576       0.89
+
+Size       Cycles/Element for sum_unrolled2: unrolls loop to handle two elements per iteration
+1048576       0.70
+
+Size       Cycles/Element for sum_unrolled4: unrolls loop to handle four elements per iteration
+1048576       0.70
+
+Size       Cycles/Element for sum_multiple_accum: 4 way unroll and 4 accumulators
+1048576       0.42
